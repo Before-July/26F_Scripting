@@ -1,0 +1,673 @@
+Begin Object Class=/Script/Engine.AnimBlueprint Name="AnimBP_Kenny" ExportPath="/Script/Engine.AnimBlueprint'/Game/Character/AnimBP_Kenny.AnimBP_Kenny'"
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_StateMachine Name="AnimBlueprintExtension_StateMachine_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_StateMachine'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_StateMachine_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Base Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimBlueprintExtension_Attributes Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Class=/Script/AnimGraph.AnimationGraph Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph'"
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_StateMachine Name="AnimGraphNode_StateMachine_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateMachine'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0'"
+         Begin Object Class=/Script/AnimGraph.AnimationStateMachineGraph Name="New State Machine" ExportPath="/Script/AnimGraph.AnimationStateMachineGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine'"
+            Begin Object Class=/Script/AnimGraph.AnimStateTransitionNode Name="AnimStateTransitionNode_1" ExportPath="/Script/AnimGraph.AnimStateTransitionNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1'"
+               Begin Object Class=/Script/AnimGraph.AnimationTransitionGraph Name="Transition" ExportPath="/Script/AnimGraph.AnimationTransitionGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition'"
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_TransitionResult Name="AnimGraphNode_TransitionResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_TransitionResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+                  Begin Object Class=/Script/BlueprintGraph.K2Node_PromotableOperator Name="K2Node_PromotableOperator_1" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.K2Node_PromotableOperator_1'"
+                  End Object
+                  Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_1'"
+                  End Object
+               End Object
+            End Object
+            Begin Object Class=/Script/AnimGraph.AnimStateTransitionNode Name="AnimStateTransitionNode_0" ExportPath="/Script/AnimGraph.AnimStateTransitionNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0'"
+               Begin Object Class=/Script/AnimGraph.AnimationTransitionGraph Name="Transition" ExportPath="/Script/AnimGraph.AnimationTransitionGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition'"
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_TransitionResult Name="AnimGraphNode_TransitionResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_TransitionResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+                  Begin Object Class=/Script/BlueprintGraph.K2Node_PromotableOperator Name="K2Node_PromotableOperator_0" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.K2Node_PromotableOperator_0'"
+                  End Object
+                  Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.K2Node_VariableGet_1'"
+                  End Object
+               End Object
+            End Object
+            Begin Object Class=/Script/AnimGraph.AnimStateNode Name="AnimStateNode_2" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2'"
+               Begin Object Class=/Script/AnimGraph.AnimationStateGraph Name="Jump" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump'"
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_StateResult Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump.AnimGraphNode_StateResult_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+               End Object
+            End Object
+            Begin Object Class=/Script/AnimGraph.AnimStateNode Name="AnimStateNode_1" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1'"
+               Begin Object Class=/Script/AnimGraph.AnimationStateGraph Name="Running" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running'"
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_StateResult Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_StateResult_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_SequencePlayer Name="AnimGraphNode_SequencePlayer_0" ExportPath="/Script/AnimGraph.AnimGraphNode_SequencePlayer'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_SequencePlayer_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_SequencePlayer_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+               End Object
+            End Object
+            Begin Object Class=/Script/AnimGraph.AnimStateNode Name="AnimStateNode_0" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0'"
+               Begin Object Class=/Script/AnimGraph.AnimationStateGraph Name="Idel" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel'"
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_StateResult Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_StateResult_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+                  Begin Object Class=/Script/AnimGraph.AnimGraphNode_SequencePlayer Name="AnimGraphNode_SequencePlayer_0" ExportPath="/Script/AnimGraph.AnimGraphNode_SequencePlayer'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_SequencePlayer_0'"
+                     Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_SequencePlayer_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                  End Object
+               End Object
+            End Object
+            Begin Object Class=/Script/AnimGraph.AnimStateEntryNode Name="AnimStateEntryNode_0" ExportPath="/Script/AnimGraph.AnimStateEntryNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateEntryNode_0'"
+            End Object
+         End Object
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/AnimGraph.AnimGraphNode_Root Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Class=/Script/AnimGraph.AnimGraphNodeBinding_Base Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_Event_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_3" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_3'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableGet_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_Event_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_VariableSet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableSet_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableGet_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_VariableSet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableSet_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_4" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_4'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_DynamicCast Name="K2Node_DynamicCast_0" ExportPath="/Script/BlueprintGraph.K2Node_DynamicCast'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_DynamicCast_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_6" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_6'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BlueprintInitializeAnimation" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BlueprintUpdateAnimation" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame Name="K2Node_SetVariableOnPersistentFrame_0" ExportPath="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_SetVariableOnPersistentFrame_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14.K2Node_CallFunction_0'"
+      End Object
+   End Object
+   Begin Object Name="AnimBlueprintExtension_StateMachine_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_StateMachine'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_StateMachine_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_PropertyAccess_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_PropertyAccess_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Base_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_Base_0'"
+   End Object
+   Begin Object Name="AnimBlueprintExtension_Attributes_0" ExportPath="/Script/AnimGraph.AnimBlueprintExtension_Attributes'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimBlueprintExtension_Attributes_0'"
+   End Object
+   Begin Object Name="AnimGraph" ExportPath="/Script/AnimGraph.AnimationGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph'"
+      Begin Object Name="AnimGraphNode_StateMachine_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateMachine'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0'"
+         Begin Object Name="New State Machine" ExportPath="/Script/AnimGraph.AnimationStateMachineGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine'"
+            Begin Object Name="AnimStateTransitionNode_1" ExportPath="/Script/AnimGraph.AnimStateTransitionNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1'"
+               Begin Object Name="Transition" ExportPath="/Script/AnimGraph.AnimationTransitionGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition'"
+                  Begin Object Name="AnimGraphNode_TransitionResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_TransitionResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     ShowPinForProperties(0)=(PropertyName="bCanEnterTransition",PropertyFriendlyName="Can Enter Transition",CategoryName="Result",bShowPin=True,bCanToggleVisibility=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodePosX=256
+                     NodePosY=-128
+                     ErrorType=3
+                     NodeGuid=79DDDE5E4286424336BD08A253520FDD
+                     CustomProperties Pin (PinId=C114B39C47FBDA7A0877118D861715E4,PinName="bCanEnterTransition",PinFriendlyName=INVTEXT("Can Enter Transition"),PinToolTip="Can Enter Transition\nBoolean",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="False",AutogeneratedDefaultValue="False",LinkedTo=(K2Node_PromotableOperator_1 59D27A654F663F8472A3C68EBEBDF5D0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="K2Node_PromotableOperator_1" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.K2Node_PromotableOperator_1'"
+                     OperationName="LessEqual"
+                     bDefaultsToPureFunc=True
+                     FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="LessEqual_DoubleDouble")
+                     NodePosX=16
+                     NodePosY=-112
+                     NodeGuid=E44202624B48E80982BD00996B8071AD
+                     CustomProperties Pin (PinId=36BCC70F4AA0DF66CFC32AA5BD220A56,PinName="A",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_1 6A98B36742DC2D32E8E76E9F6C769D9A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=59CA17CB44311C975335BF91725E9149,PinName="B",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=59D27A654F663F8472A3C68EBEBDF5D0,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_TransitionResult_0 C114B39C47FBDA7A0877118D861715E4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=B5054AD94EAF8038DB54629BAE35CD0C,PinName="ErrorTolerance",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_1.Transition.K2Node_VariableGet_1'"
+                     VariableReference=(MemberName="Speed",MemberGuid=13CB6FCE4968C052C659719BDC284C5D,bSelfContext=True)
+                     NodePosX=-208
+                     NodePosY=-112
+                     NodeGuid=05560E40457CB6D02096D5B5F8343151
+                     CustomProperties Pin (PinId=6A98B36742DC2D32E8E76E9F6C769D9A,PinName="Speed",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_1 36BCC70F4AA0DF66CFC32AA5BD220A56,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=189B5E1646F40BE6273000B2BFDCF1B0,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  MyResultNode="/Script/AnimGraph.AnimGraphNode_TransitionResult'AnimGraphNode_TransitionResult_0'"
+                  Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationTransitionSchema'"
+                  Nodes(0)="/Script/AnimGraph.AnimGraphNode_TransitionResult'AnimGraphNode_TransitionResult_0'"
+                  Nodes(1)="/Script/BlueprintGraph.K2Node_PromotableOperator'K2Node_PromotableOperator_1'"
+                  Nodes(2)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_1'"
+                  GraphGuid=745D9E2545CB0D80EE66CC88845B96DB
+               End Object
+               BoundGraph="/Script/AnimGraph.AnimationTransitionGraph'Transition'"
+               bAllowInertializationForSelfTransitions=True
+               CachedRotation=(X=0.000000,Y=-1.000000)
+               NodePosX=425
+               NodePosY=11
+               NodeGuid=241648A04E2C635056BA88AA67D2F189
+               CustomProperties Pin (PinId=42DF4D3045E183239734FE80DFBD5372,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateNode_1 2007E3AC43754176170281B238FAE485,),PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+               CustomProperties Pin (PinId=2B9B273647AAC40CC48E689126AA1B18,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateNode_0 BF8D25F643C6932F25D98F91A05A00E7,),PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Begin Object Name="AnimStateTransitionNode_0" ExportPath="/Script/AnimGraph.AnimStateTransitionNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0'"
+               Begin Object Name="Transition" ExportPath="/Script/AnimGraph.AnimationTransitionGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition'"
+                  Begin Object Name="AnimGraphNode_TransitionResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_TransitionResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     ShowPinForProperties(0)=(PropertyName="bCanEnterTransition",PropertyFriendlyName="Can Enter Transition",CategoryName="Result",bShowPin=True,bCanToggleVisibility=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodePosX=416
+                     NodePosY=-112
+                     ErrorType=3
+                     NodeGuid=3AF6CC87463ECC3B1FC125BB2203CA14
+                     CustomProperties Pin (PinId=3755C1074DDFC54B8390FEA8D494C521,PinName="bCanEnterTransition",PinFriendlyName=INVTEXT("Can Enter Transition"),PinToolTip="Can Enter Transition\nBoolean",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="False",AutogeneratedDefaultValue="False",LinkedTo=(K2Node_PromotableOperator_0 2C4CB02E46353E3B8F09CAAAF043D4CF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="K2Node_PromotableOperator_0" ExportPath="/Script/BlueprintGraph.K2Node_PromotableOperator'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.K2Node_PromotableOperator_0'"
+                     OperationName="Greater"
+                     bDefaultsToPureFunc=True
+                     FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="Greater_DoubleDouble")
+                     NodePosX=160
+                     NodePosY=-128
+                     NodeGuid=525F70C44880F31066068BAE60E67686
+                     CustomProperties Pin (PinId=6692F0DF458EE38CF7608597AA9A16DB,PinName="A",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_1 4705357C4BDAC05C9588178989478150,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=C84238964ADC59011FDCEC9F03A507AC,PinName="B",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=2C4CB02E46353E3B8F09CAAAF043D4CF,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_TransitionResult_0 3755C1074DDFC54B8390FEA8D494C521,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=74CAE22A4137CB987A6D3A8ACD09163C,PinName="ErrorTolerance",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition.K2Node_VariableGet_1'"
+                     VariableReference=(MemberName="Speed",MemberGuid=13CB6FCE4968C052C659719BDC284C5D,bSelfContext=True)
+                     NodePosX=-32
+                     NodePosY=-128
+                     NodeGuid=4E4327D7404C1AB312D076A6F050337D
+                     CustomProperties Pin (PinId=4705357C4BDAC05C9588178989478150,PinName="Speed",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_PromotableOperator_0 6692F0DF458EE38CF7608597AA9A16DB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                     CustomProperties Pin (PinId=1821E9754774B419BFD9CEAE228FEC9D,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  MyResultNode="/Script/AnimGraph.AnimGraphNode_TransitionResult'AnimGraphNode_TransitionResult_0'"
+                  Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationTransitionSchema'"
+                  Nodes(0)="/Script/AnimGraph.AnimGraphNode_TransitionResult'AnimGraphNode_TransitionResult_0'"
+                  Nodes(1)="/Script/BlueprintGraph.K2Node_PromotableOperator'K2Node_PromotableOperator_0'"
+                  Nodes(2)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_1'"
+                  GraphGuid=2CBAF137413701998371A89C78A72CF2
+               End Object
+               BoundGraph="/Script/AnimGraph.AnimationTransitionGraph'Transition'"
+               bAllowInertializationForSelfTransitions=True
+               CachedRotation=(X=0.000000,Y=1.000000)
+               NodePosX=473
+               NodePosY=11
+               NodeGuid=2521C41D473EDA95979FD0A6A6E8B74D
+               CustomProperties Pin (PinId=18893E1247676634FB1095AAE7A42F36,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateNode_0 5BEEEB974A4E6E7995CDB1913F51D14B,),PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+               CustomProperties Pin (PinId=71E5E025489FC0FEB7C71F9E52F9BD74,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateNode_1 9CF9B6C44A6560590645D595DEC56301,),PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Begin Object Name="AnimStateNode_2" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2'"
+               Begin Object Name="Jump" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump'"
+                  Begin Object Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump.AnimGraphNode_StateResult_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_2.Jump.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     bHasCompilerMessage=True
+                     ErrorType=4
+                     ErrorMsg="Result  was visible but ignored"
+                     NodeGuid=F858FC9A40B8324A97BCAB8932D25F46
+                     CustomProperties Pin (PinId=D1AB48A24DB2697F6EA3B895DB494CD8,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  MyResultNode="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationStateGraphSchema'"
+                  Nodes(0)="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  GraphGuid=186E1FEB4CB20451DA10B58E57BE1BBE
+               End Object
+               BoundGraph="/Script/AnimGraph.AnimationStateGraph'Jump'"
+               NodePosX=416
+               NodePosY=192
+               NodeGuid=9B0D71E14B096457EBFAB995A834B02B
+               CustomProperties Pin (PinId=8A910E6343902F46D083E39DDDFEF292,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+               CustomProperties Pin (PinId=8B255EFD4D1277BA3E0C0EBFD1728E06,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Begin Object Name="AnimStateNode_1" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1'"
+               Begin Object Name="Running" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running'"
+                  Begin Object Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_StateResult_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodeGuid=758D49C949CD1D7785F4B7BAF6BA43C4
+                     CustomProperties Pin (PinId=11E3CCA34FC3CB260274A49BDC10344C,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_SequencePlayer_0 907B2C5740ED0B1F0885A9B3DDD28BAF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="AnimGraphNode_SequencePlayer_0" ExportPath="/Script/AnimGraph.AnimGraphNode_SequencePlayer'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_SequencePlayer_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_1.Running.AnimGraphNode_SequencePlayer_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     Node=(Sequence="/Script/Engine.AnimSequence'/Game/Character/Anim_KennyRun.Anim_KennyRun'")
+                     ShowPinForProperties(0)=(PropertyName="BlendWeight",PropertyFriendlyName="Blend Weight",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_AssetPlayerBase:BlendWeight", "Last encountered blendweight for this node"),CategoryName="DoNotEdit")
+                     ShowPinForProperties(1)=(PropertyName="InternalTimeAccumulator",PropertyFriendlyName="Internal Time Accumulator",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_AssetPlayerBase:InternalTimeAccumulator", "Accumulated time used to reference the asset in this node"),CategoryName="DoNotEdit")
+                     ShowPinForProperties(2)=(PropertyName="GroupName",PropertyFriendlyName="Group Name",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:GroupName", "The group name that we synchronize with (NAME_None if it is not part of any group)."),CategoryName="Sync")
+                     ShowPinForProperties(3)=(PropertyName="GroupRole",PropertyFriendlyName="Group Role",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:GroupRole", "The role this node can assume within the group (ignored if GroupName is not set)"),CategoryName="Sync")
+                     ShowPinForProperties(4)=(PropertyName="bOverridePositionWhenJoiningSyncGroupAsLeader",PropertyFriendlyName="Override Position when Joining Sync Group as Leader",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bOverridePositionWhenJoiningSyncGroupAsLeader", "When enabled, acting as the leader, and using marker-based sync, this asset player will not sync to the previous leader\'s sync position when joining a sync group and before becoming the leader but instead force everyone else to match its position."),CategoryName="Sync")
+                     ShowPinForProperties(5)=(PropertyName="Method",PropertyFriendlyName="Method",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:Method", "How this node will synchronize with other animations."),CategoryName="Sync")
+                     ShowPinForProperties(6)=(PropertyName="bIgnoreForRelevancyTest",PropertyFriendlyName="Ignore for Relevancy Test",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bIgnoreForRelevancyTest", "If true, \"Relevant anim\" nodes that look for the highest weighted animation in a state will ignore this node"),CategoryName="Relevancy",bCanToggleVisibility=True)
+                     ShowPinForProperties(7)=(PropertyName="Sequence",PropertyFriendlyName="Sequence",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:Sequence", "The animation sequence asset to play"),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(8)=(PropertyName="PlayRateBasis",PropertyFriendlyName="Play Rate Basis",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRateBasis", "The Basis in which the PlayRate is expressed in. This is used to rescale PlayRate inputs.\nFor example a Basis of 100 means that the PlayRate input will be divided by 100."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(9)=(PropertyName="PlayRate",PropertyFriendlyName="Play Rate",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRate", "The play rate multiplier. Can be negative, which will cause the animation to play in reverse."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(10)=(PropertyName="PlayRateScaleBiasClampConstants",PropertyFriendlyName="PlayRateScaleBiasClamp",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRateScaleBiasClampConstants", "Additional scaling, offsetting and clamping of PlayRate input.\nPerformed after PlayRateBasis."),CategoryName="Settings")
+                     ShowPinForProperties(11)=(PropertyName="StartPosition",PropertyFriendlyName="Start Position",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:StartPosition", "The start position between 0 and the length of the sequence to use when initializing. When looping, play will still jump back to the beginning when reaching the end."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(12)=(PropertyName="bLoopAnimation",PropertyFriendlyName="Loop Animation",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bLoopAnimation", "Should the animation loop back to the start when it reaches the end?"),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(13)=(PropertyName="bStartFromMatchingPose",PropertyFriendlyName="Start from Matching Pose",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bStartFromMatchingPose", "Use pose matching to choose the start position. Requires PoseSearch plugin."),CategoryName="PoseMatching",bCanToggleVisibility=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodePosX=-224
+                     NodePosY=112
+                     NodeGuid=A09B7B9D40E53B72D7101D8CF8FC2552
+                     CustomProperties Pin (PinId=907B2C5740ED0B1F0885A9B3DDD28BAF,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_StateResult_0 11E3CCA34FC3CB260274A49BDC10344C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  MyResultNode="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationStateGraphSchema'"
+                  Nodes(0)="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  Nodes(1)="/Script/AnimGraph.AnimGraphNode_SequencePlayer'AnimGraphNode_SequencePlayer_0'"
+                  GraphGuid=B50778CB48F847AD7D6601A44EEF2E99
+               End Object
+               BoundGraph="/Script/AnimGraph.AnimationStateGraph'Running'"
+               NodePosX=400
+               NodePosY=64
+               NodeGuid=866F524043A32A97807ADAB6F742918A
+               CustomProperties Pin (PinId=9CF9B6C44A6560590645D595DEC56301,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateTransitionNode_0 71E5E025489FC0FEB7C71F9E52F9BD74,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+               CustomProperties Pin (PinId=2007E3AC43754176170281B238FAE485,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateTransitionNode_1 42DF4D3045E183239734FE80DFBD5372,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Begin Object Name="AnimStateNode_0" ExportPath="/Script/AnimGraph.AnimStateNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0'"
+               Begin Object Name="Idel" ExportPath="/Script/AnimGraph.AnimationStateGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel'"
+                  Begin Object Name="AnimGraphNode_StateResult_0" ExportPath="/Script/AnimGraph.AnimGraphNode_StateResult'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_StateResult_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_StateResult_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodePosX=64
+                     NodePosY=32
+                     NodeGuid=3F915F7F41F7074831575D82313468E7
+                     CustomProperties Pin (PinId=CA78432746748EA3CA3D008B1A9C6E2C,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_SequencePlayer_0 1BE74F8D4C42CCBE50A09C8DB9D98C98,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  Begin Object Name="AnimGraphNode_SequencePlayer_0" ExportPath="/Script/AnimGraph.AnimGraphNode_SequencePlayer'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_SequencePlayer_0'"
+                     Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateNode_0.Idel.AnimGraphNode_SequencePlayer_0.AnimGraphNodeBinding_Base_0'"
+                     End Object
+                     Node=(Sequence="/Script/Engine.AnimSequence'/Game/Character/Anim_KennyIdel.Anim_KennyIdel'")
+                     ShowPinForProperties(0)=(PropertyName="BlendWeight",PropertyFriendlyName="Blend Weight",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_AssetPlayerBase:BlendWeight", "Last encountered blendweight for this node"),CategoryName="DoNotEdit")
+                     ShowPinForProperties(1)=(PropertyName="InternalTimeAccumulator",PropertyFriendlyName="Internal Time Accumulator",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_AssetPlayerBase:InternalTimeAccumulator", "Accumulated time used to reference the asset in this node"),CategoryName="DoNotEdit")
+                     ShowPinForProperties(2)=(PropertyName="GroupName",PropertyFriendlyName="Group Name",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:GroupName", "The group name that we synchronize with (NAME_None if it is not part of any group)."),CategoryName="Sync")
+                     ShowPinForProperties(3)=(PropertyName="GroupRole",PropertyFriendlyName="Group Role",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:GroupRole", "The role this node can assume within the group (ignored if GroupName is not set)"),CategoryName="Sync")
+                     ShowPinForProperties(4)=(PropertyName="bOverridePositionWhenJoiningSyncGroupAsLeader",PropertyFriendlyName="Override Position when Joining Sync Group as Leader",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bOverridePositionWhenJoiningSyncGroupAsLeader", "When enabled, acting as the leader, and using marker-based sync, this asset player will not sync to the previous leader\'s sync position when joining a sync group and before becoming the leader but instead force everyone else to match its position."),CategoryName="Sync")
+                     ShowPinForProperties(5)=(PropertyName="Method",PropertyFriendlyName="Method",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:Method", "How this node will synchronize with other animations."),CategoryName="Sync")
+                     ShowPinForProperties(6)=(PropertyName="bIgnoreForRelevancyTest",PropertyFriendlyName="Ignore for Relevancy Test",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bIgnoreForRelevancyTest", "If true, \"Relevant anim\" nodes that look for the highest weighted animation in a state will ignore this node"),CategoryName="Relevancy",bCanToggleVisibility=True)
+                     ShowPinForProperties(7)=(PropertyName="Sequence",PropertyFriendlyName="Sequence",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:Sequence", "The animation sequence asset to play"),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(8)=(PropertyName="PlayRateBasis",PropertyFriendlyName="Play Rate Basis",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRateBasis", "The Basis in which the PlayRate is expressed in. This is used to rescale PlayRate inputs.\nFor example a Basis of 100 means that the PlayRate input will be divided by 100."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(9)=(PropertyName="PlayRate",PropertyFriendlyName="Play Rate",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRate", "The play rate multiplier. Can be negative, which will cause the animation to play in reverse."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(10)=(PropertyName="PlayRateScaleBiasClampConstants",PropertyFriendlyName="PlayRateScaleBiasClamp",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:PlayRateScaleBiasClampConstants", "Additional scaling, offsetting and clamping of PlayRate input.\nPerformed after PlayRateBasis."),CategoryName="Settings")
+                     ShowPinForProperties(11)=(PropertyName="StartPosition",PropertyFriendlyName="Start Position",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:StartPosition", "The start position between 0 and the length of the sequence to use when initializing. When looping, play will still jump back to the beginning when reaching the end."),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(12)=(PropertyName="bLoopAnimation",PropertyFriendlyName="Loop Animation",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bLoopAnimation", "Should the animation loop back to the start when it reaches the end?"),CategoryName="Settings",bCanToggleVisibility=True)
+                     ShowPinForProperties(13)=(PropertyName="bStartFromMatchingPose",PropertyFriendlyName="Start from Matching Pose",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_SequencePlayer:bStartFromMatchingPose", "Use pose matching to choose the start position. Requires PoseSearch plugin."),CategoryName="PoseMatching",bCanToggleVisibility=True)
+                     Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+                     NodePosX=-208
+                     NodePosY=48
+                     NodeGuid=A6AB539F49B64A80B14D0B89AD5E3BF4
+                     CustomProperties Pin (PinId=1BE74F8D4C42CCBE50A09C8DB9D98C98,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_StateResult_0 CA78432746748EA3CA3D008B1A9C6E2C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+                  End Object
+                  MyResultNode="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationStateGraphSchema'"
+                  Nodes(0)="/Script/AnimGraph.AnimGraphNode_StateResult'AnimGraphNode_StateResult_0'"
+                  Nodes(1)="/Script/AnimGraph.AnimGraphNode_SequencePlayer'AnimGraphNode_SequencePlayer_0'"
+                  GraphGuid=D6DDAC19414CAA5D61F6F18857C7DC9F
+               End Object
+               BoundGraph="/Script/AnimGraph.AnimationStateGraph'Idel'"
+               NodePosX=416
+               NodePosY=-64
+               NodeGuid=9E628DB44B38B9AF227A419351A8997C
+               CustomProperties Pin (PinId=BF8D25F643C6932F25D98F91A05A00E7,PinName="In",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateEntryNode_0 B2C0CC3342F8B0EC0CF43181EE8D0022,AnimStateTransitionNode_1 2B9B273647AAC40CC48E689126AA1B18,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+               CustomProperties Pin (PinId=5BEEEB974A4E6E7995CDB1913F51D14B,PinName="Out",Direction="EGPD_Output",PinType.PinCategory="Transition",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateTransitionNode_0 18893E1247676634FB1095AAE7A42F36,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            Begin Object Name="AnimStateEntryNode_0" ExportPath="/Script/AnimGraph.AnimStateEntryNode'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateEntryNode_0'"
+               NodePosX=-48
+               NodePosY=-64
+               NodeGuid=D348AE084BC5D2DE595629B8E262D725
+               CustomProperties Pin (PinId=B2C0CC3342F8B0EC0CF43181EE8D0022,PinName="Entry",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimStateNode_0 BF8D25F643C6932F25D98F91A05A00E7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+            End Object
+            EntryNode="/Script/AnimGraph.AnimStateEntryNode'AnimStateEntryNode_0'"
+            OwnerAnimGraphNode="/Script/AnimGraph.AnimGraphNode_StateMachine'AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0'"
+            Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationStateMachineSchema'"
+            Nodes(0)="/Script/AnimGraph.AnimStateEntryNode'AnimStateEntryNode_0'"
+            Nodes(1)="/Script/AnimGraph.AnimStateNode'AnimStateNode_0'"
+            Nodes(2)="/Script/AnimGraph.AnimStateNode'AnimStateNode_1'"
+            Nodes(3)="/Script/AnimGraph.AnimStateNode'AnimStateNode_2'"
+            Nodes(4)="/Script/AnimGraph.AnimStateTransitionNode'AnimStateTransitionNode_0'"
+            Nodes(5)="/Script/AnimGraph.AnimStateTransitionNode'AnimStateTransitionNode_1'"
+            SubGraphs(0)="/Script/AnimGraph.AnimationStateGraph'AnimStateNode_0.Idel'"
+            SubGraphs(1)="/Script/AnimGraph.AnimationStateGraph'AnimStateNode_1.Running'"
+            SubGraphs(2)="/Script/AnimGraph.AnimationStateGraph'AnimStateNode_2.Jump'"
+            SubGraphs(3)="/Script/AnimGraph.AnimationTransitionGraph'AnimStateTransitionNode_0.Transition'"
+            SubGraphs(4)="/Script/AnimGraph.AnimationTransitionGraph'AnimStateTransitionNode_1.Transition'"
+            GraphGuid=433393274F39ABE9AE9DC2AFE8EDD2F4
+         End Object
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         EditorStateMachineGraph="/Script/AnimGraph.AnimationStateMachineGraph'New State Machine'"
+         ShowPinForProperties(0)=(PropertyName="MaxTransitionsPerFrame",PropertyFriendlyName="Max Transitions Per Frame",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:MaxTransitionsPerFrame", "The maximum number of transitions that can be taken by this machine \'simultaneously\' in a single frame"),CategoryName="Settings")
+         ShowPinForProperties(1)=(PropertyName="MaxTransitionsRequests",PropertyFriendlyName="Max Transitions Requests",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:MaxTransitionsRequests", "The maximum number of transition requests that can be buffered at any time.\nThe oldest transition requests are dropped to accommodate for newly created requests."),CategoryName="Settings")
+         ShowPinForProperties(2)=(PropertyName="bSkipFirstUpdateTransition",PropertyFriendlyName="Skip First Update Transition",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:bSkipFirstUpdateTransition", "When the state machine becomes relevant, it is initialized into the Entry state.\nIt then tries to take any valid transitions to possibly end up in a different state on that same frame.\n- if true, that new state starts full weight.\n- if false, a blend is created between the entry state and that new state.\nIn either case all visited State notifications (Begin/End) will be triggered."),CategoryName="Settings")
+         ShowPinForProperties(3)=(PropertyName="bReinitializeOnBecomingRelevant",PropertyFriendlyName="Reinitialize on Becoming Relevant",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:bReinitializeOnBecomingRelevant", "Reinitialize the state machine if we have become relevant to the graph\nafter not being ticked on the previous frame(s)"),CategoryName="Settings")
+         ShowPinForProperties(4)=(PropertyName="bCreateNotifyMetaData",PropertyFriendlyName="Create Notify Meta Data",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:bCreateNotifyMetaData", "Tag Notifies with meta data such as the active state and mirroring state.  Producing this\ndata has a  slight performance cost."),CategoryName="Settings")
+         ShowPinForProperties(5)=(PropertyName="bAllowConduitEntryStates",PropertyFriendlyName="Allow Conduit Entry States",PropertyTooltip=NSLOCTEXT("UObjectToolTips", "AnimNode_StateMachine:bAllowConduitEntryStates", "Allows a conduit to be used as this state machine\'s entry state\nIf a valid entry state cannot be found at runtime then this will generate a reference pose!"),CategoryName="Settings")
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=-256
+         NodePosY=96
+         NodeGuid=A973F9E04381076C96B901BFBA9A09D7
+         CustomProperties Pin (PinId=55412A5047B84153EA04BC9E4AD15682,PinName="Pose",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(AnimGraphNode_Root_0 95CD59DE4498DC05B0EBDCB91376FE04,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="AnimGraphNode_Root_0" ExportPath="/Script/AnimGraph.AnimGraphNode_Root'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_Root_0'"
+         Begin Object Name="AnimGraphNodeBinding_Base_0" ExportPath="/Script/AnimGraph.AnimGraphNodeBinding_Base'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_Root_0.AnimGraphNodeBinding_Base_0'"
+         End Object
+         ShowPinForProperties(0)=(PropertyName="Result",PropertyFriendlyName="Result",CategoryName="Links",bShowPin=True)
+         Binding="/Script/AnimGraph.AnimGraphNodeBinding_Base'AnimGraphNodeBinding_Base_0'"
+         NodePosX=144
+         NodePosY=64
+         ErrorType=4
+         NodeGuid=FA85C47E4018BEAAEB957FAE27AE9562
+         CustomProperties Pin (PinId=95CD59DE4498DC05B0EBDCB91376FE04,PinName="Result",PinFriendlyName=INVTEXT("Result"),PinToolTip="Result\nPose Link Structure",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.PoseLink'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="(LinkID=-1,SourceLinkID=-1)",AutogeneratedDefaultValue="(LinkID=-1,SourceLinkID=-1)",LinkedTo=(AnimGraphNode_StateMachine_0 55412A5047B84153EA04BC9E4AD15682,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/AnimGraph.AnimationGraphSchema'"
+      Nodes(0)="/Script/AnimGraph.AnimGraphNode_Root'AnimGraphNode_Root_0'"
+      Nodes(1)="/Script/AnimGraph.AnimGraphNode_StateMachine'AnimGraphNode_StateMachine_0'"
+      bAllowDeletion=False
+      SubGraphs(0)="/Script/AnimGraph.AnimationStateMachineGraph'AnimGraphNode_StateMachine_0.New State Machine'"
+      GraphGuid=CF7ECE2D455526C1B2473AB534AEFCD6
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph'"
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation")
+         bOverrideFunction=True
+         bCommentBubblePinned=True
+         NodeGuid=FB32ECE74AF8BCC2CD7431A4B6E92FA2
+         CustomProperties Pin (PinId=A729A601405AEDC42266C3A21337A5DE,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C8CCE0354EF89EB93462A8AEE0D4D8A3,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableSet_1 F7C46651448B5DAAAE4A39A259F7D989,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B1C608CA4B05F3D6B5FD088A7067C977,PinName="DeltaTimeX",PinToolTip="Delta Time X\nFloat (single-precision)",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_3" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_3'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberName="TryGetPawnOwner",bSelfContext=True)
+         NodePosY=100
+         EnabledState=Disabled
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=5D3E7BEF46E0D1F6514C64B93E66D1F9
+         CustomProperties Pin (PinId=54507A994766134863147A86C44C9006,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinToolTip="Target\nAnim Instance Object Reference",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BE76DBB946388EF0703EDF999D1345DE,PinName="ReturnValue",PinToolTip="Return Value\nPawn Object Reference",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Pawn'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_1" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_1'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Pawn'",MemberName="GetMovementComponent")
+         NodePosX=544
+         NodePosY=-256
+         ErrorType=1
+         NodeGuid=454377B7401668796EDB659FD56E43A9
+         CustomProperties Pin (PinId=27E5137A4D491A481548319714C450BF,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Pawn'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 0EE5A3FB432F6313EBB0A885C8A5BEF3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AAA11AC44AB188F87C55D9BD353529BF,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PawnMovementComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableSet_0 D24824564D7595034FBDE0B0B5EC482C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableGet_0'"
+         VariableReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.MovementComponent'",MemberName="Velocity")
+         SelfContextInfo=NotSelfContext
+         NodePosX=368
+         NodePosY=64
+         NodeGuid=B43EA6CC49E52738089D0E8AD6773574
+         CustomProperties Pin (PinId=E061EE8244F7B236BE09E38A1534F9FF,PinName="Velocity",PinFriendlyName=NSLOCTEXT("UObjectDisplayNames", "MovementComponent:Velocity", "Velocity"),Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0, 0, 0",AutogeneratedDefaultValue="0, 0, 0",LinkedTo=(K2Node_CallFunction_6 C3613DF34874537BE5099F92FAA97C4F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8096880C4B71C684F26220A3F09BA32A,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.MovementComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_1 EBF98F0C49D7D0E9A0F203B013805D62,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_Event_1'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation")
+         bOverrideFunction=True
+         NodePosY=-432
+         NodeGuid=EE47906946C7718B00838E878C7A96F0
+         CustomProperties Pin (PinId=C5D9E661454132956582D3BADB729A39,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6A3BD3D6419F5454935603BE2ED378D1,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 CF82FD6C4135178D4D27C59AFAF317C7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableSet_0" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableSet_0'"
+         VariableReference=(MemberName="MovementComponent",MemberGuid=66A077714AADFAEB3B53A9995C84A169,bSelfContext=True)
+         NodePosX=592
+         NodePosY=-416
+         NodeGuid=77537E774A1C5222468C8CB2E915D032
+         CustomProperties Pin (PinId=2E20322B46540873A23807A022D9CE67,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 213AB9024370CA4A9EDB8B9DE9C42FD2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A41662F9417D754C17A97FBD99156FBD,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D24824564D7595034FBDE0B0B5EC482C,PinName="MovementComponent",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PawnMovementComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 AAA11AC44AB188F87C55D9BD353529BF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D159051D4D155153D4F15EB2D7CE4479,PinName="Output_Get",PinToolTip="Retrieves the value of the variable, can use instead of a separate Get node",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PawnMovementComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F9C8B8F14DFF1DFD29B7398403F8933C,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableGet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableGet_1'"
+         VariableReference=(MemberName="MovementComponent",MemberGuid=66A077714AADFAEB3B53A9995C84A169,bSelfContext=True)
+         NodePosX=368
+         NodePosY=176
+         NodeGuid=81BC66A54B7DC3683F5F3288E942847E
+         CustomProperties Pin (PinId=EBF98F0C49D7D0E9A0F203B013805D62,PinName="MovementComponent",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PawnMovementComponent'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableGet_0 8096880C4B71C684F26220A3F09BA32A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CB8BE46E42AA634759A178906E640229,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableSet_1" ExportPath="/Script/BlueprintGraph.K2Node_VariableSet'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_VariableSet_1'"
+         VariableReference=(MemberName="Speed",MemberGuid=13CB6FCE4968C052C659719BDC284C5D,bSelfContext=True)
+         NodePosX=832
+         NodePosY=16
+         NodeGuid=148DC88A4C712301AC7A82B521FFBD2B
+         CustomProperties Pin (PinId=F7C46651448B5DAAAE4A39A259F7D989,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_0 C8CCE0354EF89EB93462A8AEE0D4D8A3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B35F19254B36EA9858290F81BF730560,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=53BD00B04742F6CD961D3BB557BD006E,PinName="Speed",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_CallFunction_6 F49C44824C0BB71D2B312E9562937BE2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2B4C63234CDBD6E59D25B3A944D5EEA5,PinName="Output_Get",PinToolTip="Retrieves the value of the variable, can use instead of a separate Get node",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=118DE5C04CBF9428B5284C96CF8BBCE7,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_4" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_4'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberName="GetOwningActor",bSelfContext=True)
+         NodePosX=48
+         NodePosY=-272
+         NodeGuid=E20575044B25BF8157F5DD9EB96CE751
+         CustomProperties Pin (PinId=8C7F87644BD66FC17AF9FBA916F87723,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FE91235E4C85D4B0FDD3DC869CD17692,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Actor'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 2D2DECE54B48DC93B83BA2887402A3B6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_DynamicCast_0" ExportPath="/Script/BlueprintGraph.K2Node_DynamicCast'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_DynamicCast_0'"
+         TargetType="/Script/CoreUObject.Class'/Script/Engine.Character'"
+         PureState=Impure
+         NodePosX=320
+         NodePosY=-432
+         NodeGuid=9A34F8AF40F7C7DCFF2E18BB9C581874
+         CustomProperties Pin (PinId=CF82FD6C4135178D4D27C59AFAF317C7,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_Event_1 6A3BD3D6419F5454935603BE2ED378D1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=213AB9024370CA4A9EDB8B9DE9C42FD2,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_VariableSet_0 2E20322B46540873A23807A022D9CE67,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=27DF5270430E42798C889592A10E0BA7,PinName="CastFailed",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2D2DECE54B48DC93B83BA2887402A3B6,PinName="Object",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/CoreUObject.Object'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_4 FE91235E4C85D4B0FDD3DC869CD17692,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0EE5A3FB432F6313EBB0A885C8A5BEF3,PinName="AsCharacter",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Character'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 27E5137A4D491A481548319714C450BF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=EAA8CBCF4B681A77F809C4A5A5F85C6A,PinName="bSuccess",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_6" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph.K2Node_CallFunction_6'"
+         bDefaultsToPureFunc=True
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="VSizeXY")
+         NodePosX=576
+         NodePosY=32
+         NodeGuid=C1DC2604430CE416540FA4A9682C558F
+         CustomProperties Pin (PinId=02A262B443558F524E0406AAE7EA954C,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__KismetMathLibrary",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C3613DF34874537BE5099F92FAA97C4F,PinName="A",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0, 0, 0",AutogeneratedDefaultValue="0, 0, 0",LinkedTo=(K2Node_VariableGet_0 E061EE8244F7B236BE09E38A1534F9FF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F49C44824C0BB71D2B312E9562937BE2,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_VariableSet_1 53BD00B04742F6CD961D3BB557BD006E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_3'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_1'"
+      Nodes(3)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_0'"
+      Nodes(4)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_1'"
+      Nodes(5)="/Script/BlueprintGraph.K2Node_VariableSet'K2Node_VariableSet_0'"
+      Nodes(6)="/Script/BlueprintGraph.K2Node_VariableGet'K2Node_VariableGet_1'"
+      Nodes(7)="/Script/BlueprintGraph.K2Node_VariableSet'K2Node_VariableSet_1'"
+      Nodes(8)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_4'"
+      Nodes(9)="/Script/BlueprintGraph.K2Node_DynamicCast'K2Node_DynamicCast_0'"
+      Nodes(10)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_6'"
+      bAllowDeletion=False
+      GraphGuid=7E7B6CCB4B8A1EF68801EAA59FF83C0C
+   End Object
+   Begin Object Name="BlueprintInitializeAnimation" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="BlueprintInitializeAnimation"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintInitializeAnimation")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=D3E721EC190A3A1DAE445768F9B34E2B
+         CustomProperties Pin (PinId=10EAC5BF4BB1F5985D5CD69A675534EB,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 7946F7CC45613665A20814B9B4168624,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintInitializeAnimation.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_AnimBP_Kenny",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=2549DA44C58C3CCC92301E9C32422716
+         CustomProperties Pin (PinId=7946F7CC45613665A20814B9B4168624,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 10EAC5BF4BB1F5985D5CD69A675534EB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=03D699A548F6F9ABF6653FA03F768B10,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=10BB686E4F78346138A7CD96F254A0F3,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.SKEL_AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4F8C5F8048A6E4A5248BF696BE3C75B1,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=67D67D2A43250E0A600DFE99CCE67B77
+   End Object
+   Begin Object Name="BlueprintUpdateAnimation" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="BlueprintUpdateAnimation"
+         FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'",MemberName="BlueprintUpdateAnimation")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=6D826E098E2C358E9F0A7DA093B8380C
+         CustomProperties Pin (PinId=4F6C32A448CD664E3A64149589F01C14,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 6B89899A43EC659D94D7778FA08A4CD0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=16B6CCCD41C26EFE563612AA81D99A17,PinName="DeltaTimeX",PinToolTip="Delta Time X\nFloat (single-precision)",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 1A4C1CD0484C0580123A06A3ACA513B1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_SetVariableOnPersistentFrame_0" ExportPath="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_SetVariableOnPersistentFrame_0'"
+         NodePosX=400
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=185BBBCA54AC3959835CE81CC0E8B008
+         CustomProperties Pin (PinId=6B89899A43EC659D94D7778FA08A4CD0,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 4F6C32A448CD664E3A64149589F01C14,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F87A83E04A371110194C1DA36BBF6A87,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 4ABCC71542004A279200A2868402EE8D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=1A4C1CD0484C0580123A06A3ACA513B1,PinName="K2Node_Event_DeltaTimeX",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 16B6CCCD41C26EFE563612AA81D99A17,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:BlueprintUpdateAnimation.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_AnimBP_Kenny",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=85C595DCEA42387A996FFD776B34A78B
+         CustomProperties Pin (PinId=4ABCC71542004A279200A2868402EE8D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_SetVariableOnPersistentFrame_0 F87A83E04A371110194C1DA36BBF6A87,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=63D1621D4CE320DB2CEA91A06B1ED5AF,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=78ADABD146483946385158AE0F79F071,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.SKEL_AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D1B424154BD57478672B6CBE7A0112A7,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_SetVariableOnPersistentFrame'K2Node_SetVariableOnPersistentFrame_0'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=DF113BE84FCD6D0B1D188CA98387EE88
+   End Object
+   Begin Object Name="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD"
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=FAB7675C919B3009AC0B6A38C8A9249E
+         CustomProperties Pin (PinId=C54B82214D7D4AD5D8EAF89324629226,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 C1127BEE4ADB61218F9DD7A75712275B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_79DDDE5E4286424336BD08A253520FDD.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_AnimBP_Kenny",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=1C92066FC0A83CCFA1C10DFE0C92D117
+         CustomProperties Pin (PinId=C1127BEE4ADB61218F9DD7A75712275B,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 C54B82214D7D4AD5D8EAF89324629226,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=AA0301444756E66161D02A94F7A8E8E5,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=49A03FF5424B512BF9C8D5904B492FB5,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.SKEL_AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=567D055A4E708AAA2EC52FB464A0DC5C,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=F187738D4AA8140F885EB9A12AC7DB0D
+   End Object
+   Begin Object Name="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14" ExportPath="/Script/Engine.EdGraph'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14.K2Node_FunctionEntry_0'"
+         CustomGeneratedFunctionName="EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14"
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=1BC0C72A550E3954B61E10998B1939C6
+         CustomProperties Pin (PinId=AEFE5BCD49ADEF9C1BB6F8818F6ABB29,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 74F595F14FDF0BC8FB492AB34823F92E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath="/Script/BlueprintGraph.K2Node_CallFunction'/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Kenny_AnimGraphNode_TransitionResult_3AF6CC87463ECC3B1FC125BB2203CA14.K2Node_CallFunction_0'"
+         FunctionReference=(MemberName="ExecuteUbergraph_AnimBP_Kenny",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=0B032DACDBD7390AA865FBC882294103
+         CustomProperties Pin (PinId=74F595F14FDF0BC8FB492AB34823F92E,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 AEFE5BCD49ADEF9C1BB6F8818F6ABB29,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=79BE21F94AFD24AFFEAF4EA2033DA051,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0F81AF8B42EB3E3CD78B9CA19876DDD8,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject="/Script/Engine.AnimBlueprintGeneratedClass'/Game/Character/AnimBP_Kenny.SKEL_AnimBP_Kenny_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7B4D0F904B282A12717B12AA93FAAE35,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_CallFunction'K2Node_CallFunction_0'"
+      GraphGuid=8B9E61BF4725952F824A74B25E50732B
+   End Object
+   TargetSkeleton="/Script/Engine.Skeleton'/Game/Character/SK_Kenny.SK_Kenny'"
+   ParentClass="/Script/CoreUObject.Class'/Script/Engine.AnimInstance'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   FunctionGraphs(0)="/Script/AnimGraph.AnimationGraph'AnimGraph'"
+   NewVariables(0)=(VarName="MovementComponent",VarGuid=66A077714AADFAEB3B53A9995C84A169,VarType=(PinCategory="object",PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.PawnMovementComponent'"),FriendlyName="Movement Component",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   NewVariables(1)=(VarName="Speed",VarGuid=13CB6FCE4968C052C659719BDC284C5D,VarType=(PinCategory="real",PinSubCategory="double"),FriendlyName="Speed",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=65541)
+   CategorySorting(0)=""
+   CategorySorting(1)="Event Graph"
+   CategorySorting(2)="Anim Graph"
+   CategorySorting(3)="Default"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition",SavedViewOffset=(X=-617.549988,Y=-454.704987),SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObjectPath="/Game/Character/AnimBP_Kenny.AnimBP_Kenny:AnimGraph.AnimGraphNode_StateMachine_0.New State Machine.AnimStateTransitionNode_0.Transition",SavedViewOffset=(X=-425.549988,Y=-573.038330),SavedZoomAmount=1.000000)
+   LastEditedDocuments(2)=(EditedObjectPath="/Game/Character/AnimBP_Kenny.AnimBP_Kenny:EventGraph",SavedViewOffset=(X=-202.054962,Y=-555.631470),SavedZoomAmount=1.000000)
+   Extensions(0)="/Script/AnimGraph.AnimBlueprintExtension_Base'AnimBlueprintExtension_Base_0'"
+   Extensions(1)="/Script/AnimGraph.AnimBlueprintExtension_Attributes'AnimBlueprintExtension_Attributes_0'"
+   Extensions(2)="/Script/AnimGraph.AnimBlueprintExtension_PropertyAccess'AnimBlueprintExtension_PropertyAccess_0'"
+   Extensions(3)="/Script/AnimGraph.AnimBlueprintExtension_StateMachine'AnimBlueprintExtension_StateMachine_0'"
+   GeneratedClass="/Script/Engine.AnimBlueprintGeneratedClass'AnimBP_Kenny_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=433A9A09437ED2FF7FAEDFA4A6234421
+End Object
