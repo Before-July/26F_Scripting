@@ -62,6 +62,11 @@ namespace fw
 
 	static vec2 operator*(float f, const vec2& o)
 	{
-		return { o.x*f, o.y*f };
+		return { f*o.x, f*o.y };
+	}
+
+	static vec2 operator/(float f, const vec2& o)
+	{
+		return { f/o.x, f/o.y };
 	}
 }

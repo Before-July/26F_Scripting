@@ -11,12 +11,18 @@ uniform float u_angle;
 uniform vec2 u_offset;
 uniform vec2 u_cameraPosition;
 uniform vec2 u_projectionScale;
+uniform float u_time;
 
 vec2 calculateWorldSpacePosition(vec2 objectSpacePosition);
 
 void main()
 {
 	vec2 objectSpacePosition = a_position;
+
+	objectSpacePosition.y += sin(objectSpacePosition.x * 5 + u_time)/ abs(sin(u_time)/10-3);
+
+//	objectSpacePosition.y += sin();
+
 	vec2 worldSpacePosition = calculateWorldSpacePosition(objectSpacePosition);
 	vec2 viewSpacePosition = worldSpacePosition - u_cameraPosition;
 	vec2 clipSpacePosition = viewSpacePosition * u_projectionScale;

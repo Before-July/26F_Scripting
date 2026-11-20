@@ -11,24 +11,21 @@ uniform float u_percentage;
 void main()
 {
 	vec2 uv = v_uv;
-//	uv.x += u_time;
-//	vec4 finalColor = vec4( u_percentage, v_uv.x, 0.5, 1.0);
-	vec4 color  = texture2D( u_texture, uv);
-	vec4 color1  = texture2D( u_texture2, uv);
 
-//	color1 = step(color1.z * sin(u_time),0.5);
+	//vec4 finalColor = vec4( u_percentage, 0.0, 0.0, 1.0 );
 
-	float a = sin(u_time);
+	vec4 color1 = texture2D( u_texture, uv );
+	vec4 color2 = texture2D( u_texture2, uv );
 
-	vec4 finalColor = ( 1- color);
+//	vec4 finalColor = color1 * (1 - u_percentage) +
+//	                  color2 * (u_percentage);
 
-	if (color1.x < u_percentage)
-		
+	vec4 finalColor = color1;
+	if( color2.r < u_percentage )
 		discard;
 
-	if (color1.x < u_percentage + 0.05)
-		finalColor = vec4(1,1,1,1);
-		
+	if( color2.r < u_percentage + 0.05 )
+		finalColor = vec4( 1, 0, 0, 1 );
 
 	gl_FragColor = finalColor;
 }
